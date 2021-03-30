@@ -61,7 +61,7 @@ export const homeObj4 = {
   description: "This is the description section",
   buttonLabel: "This is button",
   imgStart: true,
-  img: require("../../img/car1.svg").default,
+  img: require("../../img/front.jpg").default,
   alt: "Car",
   dark: false,
   primary: false,

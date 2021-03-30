@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              Amburger Auto
+              Amburger Automotive
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
