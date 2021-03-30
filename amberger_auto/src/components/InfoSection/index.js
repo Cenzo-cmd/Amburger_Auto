@@ -2,7 +2,23 @@ import React from "react";
 import { Button } from "../ButtonElements";
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Img, ImgWrap } from "./InfoElements";
 
-const InfoSection = ({ lightText, lightBg, id, imgStart, topline, darkText, headline, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+const InfoSection = ({
+  lightText,
+  lightBg,
+  id,
+  imgStart,
+  topline,
+  darkText,
+  headline,
+  description,
+  buttonLabel,
+  img,
+  alt,
+  primary,
+  dark,
+  dark2,
+  buttonLocation,
+}) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -15,7 +31,7 @@ const InfoSection = ({ lightText, lightBg, id, imgStart, topline, darkText, head
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                    to={buttonLocation}
                     smooth={true}
                     duration={500}
                     spy={true}

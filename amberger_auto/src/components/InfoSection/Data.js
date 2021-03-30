@@ -13,6 +13,7 @@ export const homeObj1 = {
   dark: true,
   primary: true,
   darkText: false,
+  buttonLocation: "services",
 };
 
 export const homeObj2 = {
@@ -30,6 +31,7 @@ export const homeObj2 = {
   dark: false,
   primary: false,
   darkText: true,
+  buttonLocation: "/location",
 };
 
 export const homeObj3 = {
@@ -37,12 +39,12 @@ export const homeObj3 = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topline: "Full Service Repair and Maintenance ",
+  topline: "Open Monday through Friday 8am - 5pm",
   headline: "This is the headline it can be as long as you want it",
   description: "This is the description section",
-  buttonLabel: "This is button",
+  buttonLabel: "Call Us",
   imgStart: false,
-  img: require("../../img/location.svg").default,
+  img: require("../../img/contact.svg").default,
   alt: "Car",
   dark: true,
   primary: true,
@@ -54,7 +56,7 @@ export const homeObj4 = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topline: "Full Service Repair and Maintenance ",
+  topline: "Locally Owned and operated for x years",
   headline: "This is the headline it can be as long as you want it",
   description: "This is the description section",
   buttonLabel: "This is button",
