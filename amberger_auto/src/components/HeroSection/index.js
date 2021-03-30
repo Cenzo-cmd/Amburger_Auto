@@ -18,7 +18,18 @@ const HeroSection = () => {
         <HeroH1>Amburger Automotive</HeroH1>
         <HeroP>This can be the a section to talk about the business</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' primary='true' dark='true' onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            to='signup'
+            primary='true'
+            dark='true'
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
