@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Amburger_Auto/static/css/main.ee8b7627.chunk.css",
+    "main.js": "/Amburger_Auto/static/js/main.bf96295d.chunk.js",
+    "main.js.map": "/Amburger_Auto/static/js/main.bf96295d.chunk.js.map",
+    "runtime-main.js": "/Amburger_Auto/static/js/runtime-main.b378c011.js",
+    "runtime-main.js.map": "/Amburger_Auto/static/js/runtime-main.b378c011.js.map",
+    "static/js/2.3a75655e.chunk.js": "/Amburger_Auto/static/js/2.3a75655e.chunk.js",
+    "static/js/2.3a75655e.chunk.js.map": "/Amburger_Auto/static/js/2.3a75655e.chunk.js.map",
+    "index.html": "/Amburger_Auto/index.html",
+    "static/css/main.ee8b7627.chunk.css.map": "/Amburger_Auto/static/css/main.ee8b7627.chunk.css.map",
+    "static/js/2.3a75655e.chunk.js.LICENSE.txt": "/Amburger_Auto/static/js/2.3a75655e.chunk.js.LICENSE.txt",
+    "static/media/contact.svg": "/Amburger_Auto/static/media/contact.ccae12d4.svg",
+    "static/media/engine1.jpg": "/Amburger_Auto/static/media/engine1.5224009e.jpg",
+    "static/media/location.svg": "/Amburger_Auto/static/media/location.b67bfa48.svg",
+    "static/media/video.7d1ea6a9.mp4": "/Amburger_Auto/static/media/video.7d1ea6a9.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b378c011.js",
+    "static/js/2.3a75655e.chunk.js",
+    "static/css/main.ee8b7627.chunk.css",
+    "static/js/main.bf96295d.chunk.js"
+  ]
+}
